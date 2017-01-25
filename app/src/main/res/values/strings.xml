@@ -3,6 +3,8 @@
 
     <string name="image_view">ImageView</string>
     <string name="image_view_tint">ImageView + tint</string>
-    <string name="image_view_rotation">ImageView + rotation</string>
+    <string name="image_view_rotation1">ImageView + rotation</string>
+    <string name="image_view_rotation2">activity_main.xmlでrotationしたバージョン</string>
     <string name="image_button">ImageButton</string>
+    <string name="text_view">TextView</string>
 </resources>

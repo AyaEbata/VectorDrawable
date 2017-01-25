@@ -46,29 +46,49 @@
         android:id="@+id/image_view_tint" />
 
     <TextView
-        android:text="@string/image_view_rotation"
+        android:text="@string/image_view_rotation1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/image_view_tint"
         android:layout_alignParentStart="true"
         android:layout_marginTop="14dp"
-        android:id="@+id/image_view_rotation_text" />
+        android:id="@+id/image_view_rotation1_text" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_cat_rotation_black_24dp"
-        android:tint="@color/colorAccent"
-        android:layout_below="@+id/image_view_rotation_text"
+        android:layout_below="@+id/image_view_rotation1_text"
         android:layout_alignParentStart="true"
         android:layout_marginTop="10dp"
-        android:id="@+id/image_view_rotation" />
+        android:id="@+id/image_view_rotation1" />
+
+    <TextView
+        android:text="@string/image_view_rotation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view_rotation1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/image_view_rotation2_text" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_cat_black_24dp"
+        android:rotation="45"
+        android:pivotX="200.0"
+        android:pivotY="190.0"
+        android:layout_below="@+id/image_view_rotation2_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/image_view_rotation2" />
 
     <TextView
         android:text="@string/image_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/image_view_rotation"
+        android:layout_below="@+id/image_view_rotation2"
         android:layout_alignParentStart="true"
         android:layout_marginTop="14dp"
         android:id="@+id/image_button_text" />
@@ -80,6 +100,6 @@
         android:layout_below="@+id/image_button_text"
         android:layout_alignParentStart="true"
         android:layout_marginTop="10dp"
-        android:id="@+id/imageButton" />
-
+        android:id="@+id/image_button" />
+    
 </RelativeLayout>

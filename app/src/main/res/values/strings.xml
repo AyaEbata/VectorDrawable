@@ -3,4 +3,5 @@
 
     <string name="image_view">ImageView</string>
     <string name="image_view_tint">ImageView + tint</string>
+    <string name="image_view_rotation">ImageView + rotation</string>
 </resources>

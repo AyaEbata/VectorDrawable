@@ -26,4 +26,23 @@
         android:layout_marginTop="10dp"
         android:id="@+id/image_view" />
 
+    <TextView
+        android:text="@string/image_view_tint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/image_view_tint_text" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_cat_black_24dp"
+        android:tint="@color/colorAccent"
+        android:layout_below="@+id/image_view_tint_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/image_view_tint" />
+
 </RelativeLayout>

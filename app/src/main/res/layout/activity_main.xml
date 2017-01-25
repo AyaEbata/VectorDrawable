@@ -101,5 +101,24 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="10dp"
         android:id="@+id/image_button" />
-    
+
+    <TextView
+        android:text="@string/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/text_view_text" />
+
+    <TextView
+        android:text="@string/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/text_view"
+        android:drawableStart="@drawable/ic_cat_black_24dp"/>
+
 </RelativeLayout>

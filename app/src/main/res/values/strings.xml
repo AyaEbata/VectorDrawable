@@ -9,4 +9,6 @@
     <string name="text_view">TextView</string>
     <string name="text_view_tint">TextView + tint</string>
     <string name="button">Button</string>
+    <string name="animated_vector_drawable">AnimatedVectorDrawable</string>
+    <string name="click_text">↓をクリックしてみ。</string>
 </resources>

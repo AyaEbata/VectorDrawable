@@ -141,8 +141,7 @@
             android:layout_below="@+id/text_view_tint_text"
             android:layout_alignParentStart="true"
             android:layout_marginTop="10dp"
-            android:id="@+id/text_view_tint"
-            android:drawableStart="@drawable/ic_cat_black_24dp"/>
+            android:id="@+id/text_view_tint" />
 
         <TextView
             android:id="@+id/button_text"

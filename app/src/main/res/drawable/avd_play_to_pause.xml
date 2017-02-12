@@ -4,6 +4,10 @@
 
     <target
         android:name="play"
-        android:animation="@animator/play_to_pause" />
+        android:animation="@animator/shape_play_to_pause" />
+
+    <target
+        android:name="play"
+        android:animation="@animator/color_play_to_pause" />
 
 </animated-vector>
